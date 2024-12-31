@@ -1,6 +1,7 @@
 @font-face {
     font-family: "Monaco";
     src: url("./assets/monaco-webfont.woff2");
+    font-display: swap;
 }
 
 * {
