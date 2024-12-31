@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    background-color: #374659;
+    background-color: #ddd3d1;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -83,8 +83,9 @@ main {
     main {
         flex-direction: column;
         height: auto;
-        width: 400px;
+        width: 70%;
         gap: 30px;
+        padding: 40px;
     }
 
     .me {
