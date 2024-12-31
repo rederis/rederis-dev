@@ -74,6 +74,11 @@ main {
 }
 
 @media screen and (max-width: 600px) {
+
+    body {
+        min-height: 100dvh;
+    }
+
     main {
         flex-direction: column;
         height: auto;
