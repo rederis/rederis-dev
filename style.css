@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Monaco";
+    src: url("./assets/monaco-webfont.woff2");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Monaco', serif;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    background-color: #c25053;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    gap: 20px;
+    align-items: center;
+}
+
+.me img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-right: 1px solid rgba(0, 0, 0, 0.4);
+    padding-right: 30px;
+}
+
+.me h1 {
+    font-size: 1.5rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    gap: 20px;
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.socials svg {
+    width: 30px;
+}
