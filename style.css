@@ -72,3 +72,19 @@ main {
 .socials svg {
     width: 30px;
 }
+
+@media screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+        height: auto;
+        width: 400px;
+        gap: 30px;
+    }
+
+    .me {
+        border-right: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+}
