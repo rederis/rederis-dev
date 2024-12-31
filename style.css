@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    background-color: #c25053;
+    background-color: rgb(22, 22, 32);
     min-height: 100vh;
     display: flex;
     align-items: center;
